@@ -2,6 +2,7 @@ services:
 - type: web
   name: xc
   env: docker
+  region: frankfurt
   autoDeploy: false
   healthCheckPath: /dashboard
   envVars:
